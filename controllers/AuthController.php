@@ -1,5 +1,5 @@
 <?php
-require_once '../init.php';
+//require_once '../init.php';
 $userModel = new User($db);
 
 if (isset($_POST['register'])) {
